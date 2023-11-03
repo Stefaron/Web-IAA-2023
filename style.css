@@ -1,0 +1,106 @@
+/* import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@media (max-width: 767px) {
+  /* Atur tata letak elemen header */
+  header {
+      padding: 20px 0;
+  }
+
+  /* Atur tata letak dan ukuran elemen logo */
+  .navbar img {
+      width: 50px;
+  }
+
+  /* Atur tata letak elemen navbar untuk tampilan mobile */
+  .navbar-collapse {
+      background-color: #fff;
+  }
+
+  /* Atur tata letak elemen banner */
+  .banner img {
+      width: 100%;
+  }
+
+  /* Atur tata letak elemen header */
+  .header {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  /* Atur tata letak elemen tentang RoboPark */
+  #about {
+      padding: 20px;
+  }
+
+  /* Atur tata letak elemen gambar di dalam about */
+  #about .col img {
+      width: 100%;
+  }
+
+  /* Atur tata letak elemen speaker */
+  .header h2 {
+      font-size: 24px;
+  }
+
+  /* Atur tata letak elemen workshop flow */
+  #detail {
+      padding: 20px;
+  }
+
+  /* Atur tata letak elemen timeline */
+  #timeline {
+      margin-top: 0;
+  }
+
+  /* Atur tata letak elemen sponsor */
+  .sponsor {
+      padding: 20px;
+  }
+
+  body {
+    font-size: 10px; /* Ukuran font elemen body */
+  }
+
+  p {
+    font-size: 1.5em; /* Ukuran teks akan menjadi 1.5 kali ukuran font body */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Atur tata letak elemen footer */
+  footer {
+      padding: 20px 0;
+  }
+}
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+.header{
+  margin-top: 10rem;
+}
+
+#about{
+  margin-top: 10rem;
+}
+
+body{
+  background-color: #e0e0e0;
+}
+
+btn-success {
+  color: #fff;
+  background-color: #C192E0;
+  border-color: #C192E0;
+}
+
+footer{
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 100px;
+}
