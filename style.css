@@ -64,6 +64,11 @@
 
   p {
     font-size: 1.5em; /* Ukuran teks akan menjadi 1.5 kali ukuran font body */
+    text-align: justify;
+  }
+
+  ul{
+    list-style: none;
   }
 
   img {
